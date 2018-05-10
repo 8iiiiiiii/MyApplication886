@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.com.yk_zhlianxi_demo2.LoginActivity">
+
+    <!--主页面-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#6633"
+        >
+
+        <FrameLayout
+            android:id="@+id/mn2_frame"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            ></FrameLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:id="@+id/mn2_group"
+            >
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/mn2_but01"
+                android:button="@null"
+                android:gravity="center"
+                android:text="首页"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/mn2_but02"
+                android:button="@null"
+                android:gravity="center"
+                android:text="要闻"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/mn2_but03"
+                android:button="@null"
+                android:gravity="center"
+                android:text="未登录"
+                />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <!--子页面-->
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="start"
+        android:background="#3366"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

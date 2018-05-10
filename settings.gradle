@@ -1,0 +1,1 @@
+include ':app', ':yk_zhlianxi_demo1', ':rk0502_demo1', ':lunbo+data', ':yk_zhlianxi_demo2', ':yk_zhlianxi_demo3'
